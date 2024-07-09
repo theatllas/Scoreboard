@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    
+}
+
+h3 {
+    
+    color: white;
+    font-family: 'sans-serif','Courier New', Courier, monospace;
+    font-size: 28pt;
+}
+
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+button {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #9AABD8;
+    font-size: 12pt;
+    padding: 8px;
+    font-family: 'Cursed Timer';
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+}
+
+h1 {
+    color: red;
+    margin: 0;
+    padding: 30px;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 5px;
+    font-size: 48pt;
+    font-family: 'Cursed Timer';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: auto;
+    background-color: #064E3B;
+    align-items: center;
+    
+}
+
+.team-info {
+    width: 50%;
+    margin: 30px 20px;
+    background-color: #047857 ;
+    text-align: center;
+    padding: 40px;
+    border: 3px solid green;
+    
+}
+
+.score-buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.new-game {
+    color: black;
+    margin:  0 40px 30px 40px;
+    background-color: white;
+    font-family: monospace;
+    font-size: 22pt;
+    border: 3px orange solid;
+    
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #064E3B;
+}
